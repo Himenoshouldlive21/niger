@@ -1,0 +1,8 @@
+/* Remove ClearVision version/logo text */
+#app-mount .info-3pQQBb::after,
+#app-mount .info-3pQQBb::before,
+#app-mount .cv-version,
+#app-mount .clearvision-version {
+    display: none !important;
+    content: none !important;
+}
